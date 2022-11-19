@@ -16,7 +16,7 @@ def writeKaldiProbabilityMatrix(charProb, i, kaldiFile):
     
 def readKaldiLatticeFile(fileName, fileType):
     """
-    Extract the candidate sentences frmo a Kaldi lattice file.
+    Extract the candidate sentences from a Kaldi lattice file.
     """
     file = open(fileName, "r")
     allLines = file.readlines()
